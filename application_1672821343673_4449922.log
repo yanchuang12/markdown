@@ -1,0 +1,483 @@
+Container: container_e32_1672821343673_4449922_01_000001 on node71-64-22-bdxs.qiyi.hadoop_8041
+LogAggregationType: AGGREGATED
+==============================================================================================
+LogType:directory.info
+LogLastModifiedTime:Mon Feb 06 10:14:14 +0800 2023
+LogLength:35580
+LogContents:
+ls -l:
+total 12
+lrwxrwxrwx 1 dcache_iocp yarn   71 Feb  6 10:14 __spark_conf__ -> /data3/yarn/local/usercache/dcache_iocp/filecache/22/__spark_conf__.zip
+lrwxrwxrwx 1 dcache_iocp yarn   90 Feb  6 10:14 __spark_libs__ -> /data3/yarn/local/usercache/dcache_iocp/filecache/21/__spark_libs__7594137910784381154.zip
+-rw------- 1 dcache_iocp yarn  680 Feb  6 10:14 container_tokens
+lrwxrwxrwx 1 dcache_iocp yarn   72 Feb  6 10:14 dcache_acc_new-3.py -> /data3/yarn/local/usercache/dcache_iocp/filecache/24/dcache_acc_new-3.py
+lrwxrwxrwx 1 dcache_iocp yarn   71 Feb  6 10:14 dcache_iocp.keytab-58659abe-8369-4400-a274-b91e146459ab -> /data2/yarn/local/usercache/dcache_iocp/filecache/23/dcache_iocp.keytab
+-rwx------ 1 dcache_iocp yarn 7393 Feb  6 10:14 launch_container.sh
+lrwxrwxrwx 1 dcache_iocp yarn   84 Feb  6 10:14 mysql-connector-java-5.1.46.jar -> /data4/yarn/local/usercache/dcache_iocp/filecache/20/mysql-connector-java-5.1.46.jar
+lrwxrwxrwx 1 dcache_iocp yarn   65 Feb  6 10:14 provice.json -> /data2/yarn/local/usercache/dcache_iocp/filecache/27/provice.json
+lrwxrwxrwx 1 dcache_iocp yarn   72 Feb  6 10:14 py4j-0.10.9-src.zip -> /data1/yarn/local/usercache/dcache_iocp/filecache/26/py4j-0.10.9-src.zip
+lrwxrwxrwx 1 dcache_iocp yarn   64 Feb  6 10:14 pyspark.zip -> /data1/yarn/local/usercache/dcache_iocp/filecache/18/pyspark.zip
+lrwxrwxrwx 1 dcache_iocp yarn   72 Feb  6 10:14 qbfs-filesystem.jar -> /data2/yarn/local/usercache/dcache_iocp/filecache/25/qbfs-filesystem.jar
+lrwxrwxrwx 1 dcache_iocp yarn  128 Feb  6 10:14 spark-streaming-kafka-0-10-assembly_2.12-3.1.1-qiyi-4-20220512.154236-1.jar -> /data3/yarn/local/usercache/dcache_iocp/filecache/19/spark-streaming-kafka-0-10-assembly_2.12-3.1.1-qiyi-4-20220512.154236-1.jar
+drwx--s--- 2 dcache_iocp yarn    6 Feb  6 10:14 tmp
+find -L . -maxdepth 5 -ls:
+  2892    4 drwx--s---   3 dcache_iocp yarn         4096 Feb  6 10:14 .
+1073743622    0 drwx--s---   2 dcache_iocp yarn            6 Feb  6 10:14 ./tmp
+  2896    8 -rwx------   1 dcache_iocp yarn         7393 Feb  6 10:14 ./launch_container.sh
+  4734    4 -rw-------   1 dcache_iocp yarn          680 Feb  6 10:14 ./container_tokens
+1183120904  868 -r-x------   1 dcache_iocp dcache_iocp   886350 Feb  6 10:14 ./pyspark.zip
+2149391755   16 drwx------   2 dcache_iocp dcache_iocp    12288 Feb  6 10:14 ./__spark_libs__
+2149391772   32 -r-x------   1 dcache_iocp dcache_iocp    30035 Feb  6 10:13 ./__spark_libs__/accessors-smart-1.2.jar
+2149392401   68 -r-x------   1 dcache_iocp dcache_iocp    69409 Feb  6 10:13 ./__spark_libs__/activation-1.1.1.jar
+2149392403  132 -r-x------   1 dcache_iocp dcache_iocp   134044 Feb  6 10:13 ./__spark_libs__/aircompressor-0.10.jar
+2149392404 1144 -r-x------   1 dcache_iocp dcache_iocp  1168113 Feb  6 10:13 ./__spark_libs__/algebra_2.12-2.0.0-M2.jar
+2149392406    4 -r-x------   1 dcache_iocp dcache_iocp     3448 Feb  6 10:13 ./__spark_libs__/animal-sniffer-annotations-1.17.jar
+2149392414  332 -r-x------   1 dcache_iocp dcache_iocp   337869 Feb  6 10:13 ./__spark_libs__/antlr4-runtime-4.8-1.jar
+2149392415  164 -r-x------   1 dcache_iocp dcache_iocp   167761 Feb  6 10:13 ./__spark_libs__/antlr-runtime-3.5.2.jar
+2149392417    8 -r-x------   1 dcache_iocp dcache_iocp     4467 Feb  6 10:13 ./__spark_libs__/aopalliance-1.0.jar
+2149393897   28 -r-x------   1 dcache_iocp dcache_iocp    27006 Feb  6 10:13 ./__spark_libs__/aopalliance-repackaged-2.6.1.jar
+2149394124 1168 -r-x------   1 dcache_iocp dcache_iocp  1194003 Feb  6 10:13 ./__spark_libs__/arpack_combined_all-0.1.jar
+2149394794   72 -r-x------   1 dcache_iocp dcache_iocp    72668 Feb  6 10:13 ./__spark_libs__/arrow-format-2.0.0.jar
+2149396301  100 -r-x------   1 dcache_iocp dcache_iocp   100990 Feb  6 10:13 ./__spark_libs__/arrow-memory-core-2.0.0.jar
+2149396344   40 -r-x------   1 dcache_iocp dcache_iocp    39931 Feb  6 10:13 ./__spark_libs__/arrow-memory-netty-2.0.0.jar
+2149397470 1672 -r-x------   1 dcache_iocp dcache_iocp  1711185 Feb  6 10:13 ./__spark_libs__/arrow-vector-2.0.0.jar
+2149397473   20 -r-x------   1 dcache_iocp dcache_iocp    20437 Feb  6 10:13 ./__spark_libs__/audience-annotations-0.5.0.jar
+2149397475 1524 -r-x------   1 dcache_iocp dcache_iocp  1556863 Feb  6 10:13 ./__spark_libs__/avro-1.8.2.jar
+2149397480  132 -r-x------   1 dcache_iocp dcache_iocp   132989 Feb  6 10:13 ./__spark_libs__/avro-ipc-1.8.2.jar
+2149397481  184 -r-x------   1 dcache_iocp dcache_iocp   187052 Feb  6 10:13 ./__spark_libs__/avro-mapred-1.8.2-hadoop2.jar
+2149397482  780 -r-x------   1 dcache_iocp dcache_iocp   796532 Feb  6 10:13 ./__spark_libs__/bcpkix-jdk15on-1.60.jar
+2149397484 4092 -r-x------   1 dcache_iocp dcache_iocp  4189874 Feb  6 10:13 ./__spark_libs__/bcprov-jdk15on-1.60.jar
+2149397485  112 -r-x------   1 dcache_iocp dcache_iocp   110600 Feb  6 10:13 ./__spark_libs__/bonecp-0.8.0.RELEASE.jar
+2149397486 13504 -r-x------   1 dcache_iocp dcache_iocp 13826799 Feb  6 10:13 ./__spark_libs__/breeze_2.12-1.0.jar
+2149397487  132 -r-x------   1 dcache_iocp dcache_iocp   134696 Feb  6 10:13 ./__spark_libs__/breeze-macros_2.12-1.0.jar
+2149397488 3152 -r-x------   1 dcache_iocp dcache_iocp  3226851 Feb  6 10:13 ./__spark_libs__/cats-kernel_2.12-2.0.0-M4.jar
+2149397489  192 -r-x------   1 dcache_iocp dcache_iocp   193322 Feb  6 10:13 ./__spark_libs__/checker-qual-2.5.2.jar
+2149397490  208 -r-x------   1 dcache_iocp dcache_iocp   211523 Feb  6 10:13 ./__spark_libs__/chill_2.12-0.9.5.jar
+2149397491   60 -r-x------   1 dcache_iocp dcache_iocp    58684 Feb  6 10:13 ./__spark_libs__/chill-java-0.9.5.jar
+2149397492  244 -r-x------   1 dcache_iocp dcache_iocp   246918 Feb  6 10:13 ./__spark_libs__/commons-beanutils-1.9.4.jar
+2149397497   44 -r-x------   1 dcache_iocp dcache_iocp    41123 Feb  6 10:13 ./__spark_libs__/commons-cli-1.2.jar
+2149397500  280 -r-x------   1 dcache_iocp dcache_iocp   284184 Feb  6 10:13 ./__spark_libs__/commons-codec-1.10.jar
+2149397501  576 -r-x------   1 dcache_iocp dcache_iocp   588337 Feb  6 10:13 ./__spark_libs__/commons-collections-3.2.2.jar
+2149397503   72 -r-x------   1 dcache_iocp dcache_iocp    71626 Feb  6 10:13 ./__spark_libs__/commons-compiler-3.0.16.jar
+2149397794  620 -r-x------   1 dcache_iocp dcache_iocp   632424 Feb  6 10:13 ./__spark_libs__/commons-compress-1.20.jar
+2149397795  604 -r-x------   1 dcache_iocp dcache_iocp   616888 Feb  6 10:13 ./__spark_libs__/commons-configuration2-2.1.1.jar
+2149397797  164 -r-x------   1 dcache_iocp dcache_iocp   166244 Feb  6 10:13 ./__spark_libs__/commons-crypto-1.1.0.jar
+2149397798   24 -r-x------   1 dcache_iocp dcache_iocp    24239 Feb  6 10:13 ./__spark_libs__/commons-daemon-1.0.13.jar
+2149397799  160 -r-x------   1 dcache_iocp dcache_iocp   160519 Feb  6 10:13 ./__spark_libs__/commons-dbcp-1.4.jar
+2149397801  300 -r-x------   1 dcache_iocp dcache_iocp   305001 Feb  6 10:13 ./__spark_libs__/commons-httpclient-3.1.jar
+2149397806  204 -r-x------   1 dcache_iocp dcache_iocp   208700 Feb  6 10:13 ./__spark_libs__/commons-io-2.5.jar
+2149397810  280 -r-x------   1 dcache_iocp dcache_iocp   284220 Feb  6 10:13 ./__spark_libs__/commons-lang-2.6.jar
+2149397812  512 -r-x------   1 dcache_iocp dcache_iocp   523372 Feb  6 10:13 ./__spark_libs__/commons-lang3-3.10.jar
+2149397814   64 -r-x------   1 dcache_iocp dcache_iocp    62050 Feb  6 10:13 ./__spark_libs__/commons-logging-1.1.3.jar
+2149397815 1988 -r-x------   1 dcache_iocp dcache_iocp  2035066 Feb  6 10:13 ./__spark_libs__/commons-math3-3.4.1.jar
+2149397817  268 -r-x------   1 dcache_iocp dcache_iocp   273370 Feb  6 10:13 ./__spark_libs__/commons-net-3.1.jar
+2149397819   96 -r-x------   1 dcache_iocp dcache_iocp    96221 Feb  6 10:13 ./__spark_libs__/commons-pool-1.5.4.jar
+2149397820  196 -r-x------   1 dcache_iocp dcache_iocp   197176 Feb  6 10:13 ./__spark_libs__/commons-text-1.6.jar
+2149397821   80 -r-x------   1 dcache_iocp dcache_iocp    79845 Feb  6 10:13 ./__spark_libs__/compress-lzf-1.0.3.jar
+2149397822  164 -r-x------   1 dcache_iocp dcache_iocp   164422 Feb  6 10:13 ./__spark_libs__/core-1.1.2.jar
+2149397823 2368 -r-x------   1 dcache_iocp dcache_iocp  2423157 Feb  6 10:13 ./__spark_libs__/curator-client-2.13.0.jar
+2149397827  200 -r-x------   1 dcache_iocp dcache_iocp   201965 Feb  6 10:13 ./__spark_libs__/curator-framework-2.13.0.jar
+2149397829  280 -r-x------   1 dcache_iocp dcache_iocp   283653 Feb  6 10:13 ./__spark_libs__/curator-recipes-2.13.0.jar
+2149397832  360 -r-x------   1 dcache_iocp dcache_iocp   366748 Feb  6 10:13 ./__spark_libs__/datanucleus-api-jdo-4.2.4.jar
+2149397833 1972 -r-x------   1 dcache_iocp dcache_iocp  2016766 Feb  6 10:13 ./__spark_libs__/datanucleus-core-4.1.17.jar
+2149397834 1864 -r-x------   1 dcache_iocp dcache_iocp  1908681 Feb  6 10:13 ./__spark_libs__/datanucleus-rdbms-4.1.19.jar
+2149397845 3152 -r-x------   1 dcache_iocp dcache_iocp  3224708 Feb  6 10:13 ./__spark_libs__/derby-10.12.1.1.jar
+2149397853  304 -r-x------   1 dcache_iocp dcache_iocp   307637 Feb  6 10:13 ./__spark_libs__/dnsjava-2.1.7.jar
+2149397855   16 -r-x------   1 dcache_iocp dcache_iocp    15935 Feb  6 10:13 ./__spark_libs__/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar
+2149398131 1688 -r-x------   1 dcache_iocp dcache_iocp  1726527 Feb  6 10:13 ./__spark_libs__/ehcache-3.3.1.jar
+2149398228   16 -r-x------   1 dcache_iocp dcache_iocp    13694 Feb  6 10:13 ./__spark_libs__/error_prone_annotations-2.2.0.jar
+2149398235    4 -r-x------   1 dcache_iocp dcache_iocp     3727 Feb  6 10:13 ./__spark_libs__/failureaccess-1.0.jar
+2149398240   20 -r-x------   1 dcache_iocp dcache_iocp    18497 Feb  6 10:13 ./__spark_libs__/flatbuffers-java-1.9.0.jar
+2149398248   56 -r-x------   1 dcache_iocp dcache_iocp    55236 Feb  6 10:13 ./__spark_libs__/geronimo-jcache_1.0_spec-1.0-alpha-1.jar
+2149398269  188 -r-x------   1 dcache_iocp dcache_iocp   190432 Feb  6 10:13 ./__spark_libs__/gson-2.2.4.jar
+2149398271 2684 -r-x------   1 dcache_iocp dcache_iocp  2747878 Feb  6 10:13 ./__spark_libs__/guava-27.0-jre.jar
+2149400145  656 -r-x------   1 dcache_iocp dcache_iocp   668235 Feb  6 10:13 ./__spark_libs__/guice-4.0.jar
+2149400146   76 -r-x------   1 dcache_iocp dcache_iocp    76983 Feb  6 10:13 ./__spark_libs__/guice-servlet-4.0.jar
+2149403538   60 -r-x------   1 dcache_iocp dcache_iocp    60199 Feb  6 10:13 ./__spark_libs__/hadoop-annotations-3.2.2.jar
+2149403551  136 -r-x------   1 dcache_iocp dcache_iocp   138914 Feb  6 10:13 ./__spark_libs__/hadoop-auth-3.2.2.jar
+2149403554   44 -r-x------   1 dcache_iocp dcache_iocp    44107 Feb  6 10:13 ./__spark_libs__/hadoop-client-3.2.2.jar
+2149403559 4088 -r-x------   1 dcache_iocp dcache_iocp  4182881 Feb  6 10:13 ./__spark_libs__/hadoop-common-3.2.2.jar
+2149403566 5020 -r-x------   1 dcache_iocp dcache_iocp  5139052 Feb  6 10:13 ./__spark_libs__/hadoop-hdfs-client-3.2.2.jar
+2149403569  788 -r-x------   1 dcache_iocp dcache_iocp   805828 Feb  6 10:13 ./__spark_libs__/hadoop-mapreduce-client-common-3.2.2.jar
+2149403570 1620 -r-x------   1 dcache_iocp dcache_iocp  1658798 Feb  6 10:13 ./__spark_libs__/hadoop-mapreduce-client-core-3.2.2.jar
+2149403575   84 -r-x------   1 dcache_iocp dcache_iocp    85841 Feb  6 10:13 ./__spark_libs__/hadoop-mapreduce-client-jobclient-3.2.2.jar
+2149403576 3216 -r-x------   1 dcache_iocp dcache_iocp  3289927 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-api-3.2.2.jar
+2149403577  320 -r-x------   1 dcache_iocp dcache_iocp   325110 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-client-3.2.2.jar
+2149403578 2852 -r-x------   1 dcache_iocp dcache_iocp  2919326 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-common-3.2.2.jar
+2149403581  224 -r-x------   1 dcache_iocp dcache_iocp   225822 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-registry-3.2.2.jar
+2149403583 1372 -r-x------   1 dcache_iocp dcache_iocp  1402289 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-server-common-3.2.2.jar
+2149404482   80 -r-x------   1 dcache_iocp dcache_iocp    80795 Feb  6 10:13 ./__spark_libs__/hadoop-yarn-server-web-proxy-3.2.2.jar
+2149404484  136 -r-x------   1 dcache_iocp dcache_iocp   136363 Feb  6 10:13 ./__spark_libs__/HikariCP-2.5.1.jar
+2149404487  180 -r-x------   1 dcache_iocp dcache_iocp   183472 Feb  6 10:13 ./__spark_libs__/hive-beeline-2.3.7.jar
+2149404493   44 -r-x------   1 dcache_iocp dcache_iocp    43387 Feb  6 10:13 ./__spark_libs__/hive-cli-2.3.7.jar
+2149404494  428 -r-x------   1 dcache_iocp dcache_iocp   436980 Feb  6 10:13 ./__spark_libs__/hive-common-2.3.7.jar
+2149404500 10588 -r-x------   1 dcache_iocp dcache_iocp 10839104 Feb  6 10:13 ./__spark_libs__/hive-exec-2.3.7-core.jar
+2149404537  116 -r-x------   1 dcache_iocp dcache_iocp   116311 Feb  6 10:13 ./__spark_libs__/hive-jdbc-2.3.7.jar
+2149404538  320 -r-x------   1 dcache_iocp dcache_iocp   326419 Feb  6 10:13 ./__spark_libs__/hive-llap-common-2.3.7.jar
+2149408067 8004 -r-x------   1 dcache_iocp dcache_iocp  8194428 Feb  6 10:13 ./__spark_libs__/hive-metastore-2.3.7.jar
+2149409375  896 -r-x------   1 dcache_iocp dcache_iocp   916206 Feb  6 10:13 ./__spark_libs__/hive-serde-2.3.7.jar
+2149409394 1644 -r-x------   1 dcache_iocp dcache_iocp  1679364 Feb  6 10:13 ./__spark_libs__/hive-service-rpc-3.1.2.jar
+2149409406   56 -r-x------   1 dcache_iocp dcache_iocp    54116 Feb  6 10:13 ./__spark_libs__/hive-shims-0.23-2.3.7.jar
+2149409555   12 -r-x------   1 dcache_iocp dcache_iocp     8785 Feb  6 10:13 ./__spark_libs__/hive-shims-2.3.7.jar
+2149409559  120 -r-x------   1 dcache_iocp dcache_iocp   120305 Feb  6 10:13 ./__spark_libs__/hive-shims-common-2.3.7.jar
+2149409560   16 -r-x------   1 dcache_iocp dcache_iocp    12984 Feb  6 10:13 ./__spark_libs__/hive-shims-scheduler-2.3.7.jar
+2149409561  232 -r-x------   1 dcache_iocp dcache_iocp   236672 Feb  6 10:13 ./__spark_libs__/hive-storage-api-2.7.2.jar
+2149409562   40 -r-x------   1 dcache_iocp dcache_iocp    38352 Feb  6 10:13 ./__spark_libs__/hive-vector-code-gen-2.3.7.jar
+2149409571  196 -r-x------   1 dcache_iocp dcache_iocp   200223 Feb  6 10:13 ./__spark_libs__/hk2-api-2.6.1.jar
+2149409575  200 -r-x------   1 dcache_iocp dcache_iocp   203358 Feb  6 10:13 ./__spark_libs__/hk2-locator-2.6.1.jar
+2149409576  132 -r-x------   1 dcache_iocp dcache_iocp   131590 Feb  6 10:13 ./__spark_libs__/hk2-utils-2.6.1.jar
+2149409584  752 -r-x------   1 dcache_iocp dcache_iocp   767140 Feb  6 10:13 ./__spark_libs__/httpclient-4.5.6.jar
+2149410587 1468 -r-x------   1 dcache_iocp dcache_iocp  1502280 Feb  6 10:13 ./__spark_libs__/htrace-core4-4.1.0-incubating.jar
+2149410588  324 -r-x------   1 dcache_iocp dcache_iocp   328347 Feb  6 10:13 ./__spark_libs__/httpcore-4.4.12.jar
+2149410589   28 -r-x------   1 dcache_iocp dcache_iocp    27156 Feb  6 10:13 ./__spark_libs__/istack-commons-runtime-3.0.8.jar
+2149410590 1256 -r-x------   1 dcache_iocp dcache_iocp  1282424 Feb  6 10:13 ./__spark_libs__/ivy-2.4.0.jar
+2149410591   12 -r-x------   1 dcache_iocp dcache_iocp     8764 Feb  6 10:13 ./__spark_libs__/j2objc-annotations-1.1.jar
+2149410592   68 -r-x------   1 dcache_iocp dcache_iocp    67889 Feb  6 10:13 ./__spark_libs__/jackson-annotations-2.10.0.jar
+2149410593  344 -r-x------   1 dcache_iocp dcache_iocp   348635 Feb  6 10:13 ./__spark_libs__/jackson-core-2.10.0.jar
+2149410594  228 -r-x------   1 dcache_iocp dcache_iocp   232248 Feb  6 10:13 ./__spark_libs__/jackson-core-asl-1.9.13.jar
+2149410595 1372 -r-x------   1 dcache_iocp dcache_iocp  1400944 Feb  6 10:13 ./__spark_libs__/jackson-databind-2.10.0.jar
+2149410596   32 -r-x------   1 dcache_iocp dcache_iocp    32376 Feb  6 10:13 ./__spark_libs__/jackson-jaxrs-base-2.9.10.jar
+2149410617   16 -r-x------   1 dcache_iocp dcache_iocp    15864 Feb  6 10:13 ./__spark_libs__/jackson-jaxrs-json-provider-2.9.10.jar
+2149410618  764 -r-x------   1 dcache_iocp dcache_iocp   780664 Feb  6 10:13 ./__spark_libs__/jackson-mapper-asl-1.9.13.jar
+2149410619   36 -r-x------   1 dcache_iocp dcache_iocp    34991 Feb  6 10:13 ./__spark_libs__/jackson-module-jaxb-annotations-2.10.0.jar
+2149410666   44 -r-x------   1 dcache_iocp dcache_iocp    43740 Feb  6 10:13 ./__spark_libs__/jackson-module-paranamer-2.10.0.jar
+2149410667  336 -r-x------   1 dcache_iocp dcache_iocp   341862 Feb  6 10:13 ./__spark_libs__/jackson-module-scala_2.12-2.10.0.jar
+2149410668   44 -r-x------   1 dcache_iocp dcache_iocp    44399 Feb  6 10:13 ./__spark_libs__/jakarta.activation-api-1.2.1.jar
+2149410670   28 -r-x------   1 dcache_iocp dcache_iocp    25058 Feb  6 10:13 ./__spark_libs__/jakarta.annotation-api-1.3.5.jar
+2149410675   20 -r-x------   1 dcache_iocp dcache_iocp    18140 Feb  6 10:13 ./__spark_libs__/jakarta.inject-2.6.1.jar
+2149410676   84 -r-x------   1 dcache_iocp dcache_iocp    82872 Feb  6 10:13 ./__spark_libs__/jakarta.servlet-api-4.0.3.jar
+2149410677   92 -r-x------   1 dcache_iocp dcache_iocp    91930 Feb  6 10:13 ./__spark_libs__/jakarta.validation-api-2.0.2.jar
+2149421094  140 -r-x------   1 dcache_iocp dcache_iocp   140376 Feb  6 10:13 ./__spark_libs__/jakarta.ws.rs-api-2.1.6.jar
+2149421098  116 -r-x------   1 dcache_iocp dcache_iocp   115498 Feb  6 10:13 ./__spark_libs__/jakarta.xml.bind-api-2.3.2.jar
+2149421099  908 -r-x------   1 dcache_iocp dcache_iocp   926574 Feb  6 10:13 ./__spark_libs__/janino-3.0.16.jar
+2149421100  764 -r-x------   1 dcache_iocp dcache_iocp   780265 Feb  6 10:13 ./__spark_libs__/javassist-3.25.0-GA.jar
+2149421101   56 -r-x------   1 dcache_iocp dcache_iocp    56674 Feb  6 10:13 ./__spark_libs__/javax.activation-api-1.2.0.jar
+2149421103   28 -r-x------   1 dcache_iocp dcache_iocp    26586 Feb  6 10:13 ./__spark_libs__/javax.annotation-api-1.3.2.jar
+2149421104    4 -r-x------   1 dcache_iocp dcache_iocp     2497 Feb  6 10:13 ./__spark_libs__/javax.inject-1.jar
+2149421105  244 -r-x------   1 dcache_iocp dcache_iocp   249790 Feb  6 10:13 ./__spark_libs__/javax.jdo-3.2.0-m3.jar
+2149421106  388 -r-x------   1 dcache_iocp dcache_iocp   395195 Feb  6 10:13 ./__spark_libs__/javolution-5.5.1.jar
+2149421107  100 -r-x------   1 dcache_iocp dcache_iocp   102244 Feb  6 10:13 ./__spark_libs__/jaxb-api-2.2.11.jar
+2149421111  992 -r-x------   1 dcache_iocp dcache_iocp  1013367 Feb  6 10:13 ./__spark_libs__/jaxb-runtime-2.3.2.jar
+2149421114    8 -r-x------   1 dcache_iocp dcache_iocp     4722 Feb  6 10:13 ./__spark_libs__/jcip-annotations-1.0-1.jar
+2149421115   20 -r-x------   1 dcache_iocp dcache_iocp    16537 Feb  6 10:13 ./__spark_libs__/jcl-over-slf4j-1.7.30.jar
+2149421116  200 -r-x------   1 dcache_iocp dcache_iocp   201124 Feb  6 10:13 ./__spark_libs__/jdo-api-3.0.1.jar
+2149421117  240 -r-x------   1 dcache_iocp dcache_iocp   244502 Feb  6 10:13 ./__spark_libs__/jersey-client-2.30.jar
+2149421118 1140 -r-x------   1 dcache_iocp dcache_iocp  1166647 Feb  6 10:13 ./__spark_libs__/jersey-common-2.30.jar
+2149421119   32 -r-x------   1 dcache_iocp dcache_iocp    32091 Feb  6 10:13 ./__spark_libs__/jersey-container-servlet-2.30.jar
+2149422912   72 -r-x------   1 dcache_iocp dcache_iocp    73349 Feb  6 10:13 ./__spark_libs__/jersey-container-servlet-core-2.30.jar
+2149422913   76 -r-x------   1 dcache_iocp dcache_iocp    76733 Feb  6 10:13 ./__spark_libs__/jersey-hk2-2.30.jar
+2149422915   84 -r-x------   1 dcache_iocp dcache_iocp    85815 Feb  6 10:13 ./__spark_libs__/jersey-media-jaxb-2.30.jar
+2149422922  908 -r-x------   1 dcache_iocp dcache_iocp   927721 Feb  6 10:13 ./__spark_libs__/jersey-server-2.30.jar
+2149422923  228 -r-x------   1 dcache_iocp dcache_iocp   232470 Feb  6 10:13 ./__spark_libs__/JLargeArrays-1.5.jar
+2149422925  264 -r-x------   1 dcache_iocp dcache_iocp   268780 Feb  6 10:13 ./__spark_libs__/jline-2.14.6.jar
+2149422926  628 -r-x------   1 dcache_iocp dcache_iocp   643043 Feb  6 10:13 ./__spark_libs__/joda-time-2.10.5.jar
+2149422927  420 -r-x------   1 dcache_iocp dcache_iocp   427780 Feb  6 10:13 ./__spark_libs__/jodd-core-3.5.2.jar
+2149422928   12 -r-x------   1 dcache_iocp dcache_iocp    12131 Feb  6 10:13 ./__spark_libs__/jpam-1.1.jar
+2149422929   28 -r-x------   1 dcache_iocp dcache_iocp    25475 Feb  6 10:13 ./__spark_libs__/json-1.8.jar
+2149422930   84 -r-x------   1 dcache_iocp dcache_iocp    85865 Feb  6 10:13 ./__spark_libs__/json4s-ast_2.12-3.7.0-M5.jar
+2149422931  504 -r-x------   1 dcache_iocp dcache_iocp   512151 Feb  6 10:13 ./__spark_libs__/json4s-core_2.12-3.7.0-M5.jar
+2149422932   36 -r-x------   1 dcache_iocp dcache_iocp    35943 Feb  6 10:13 ./__spark_libs__/json4s-jackson_2.12-3.7.0-M5.jar
+2149422933  344 -r-x------   1 dcache_iocp dcache_iocp   349059 Feb  6 10:13 ./__spark_libs__/json4s-scalap_2.12-3.7.0-M5.jar
+2149422934  120 -r-x------   1 dcache_iocp dcache_iocp   120316 Feb  6 10:13 ./__spark_libs__/json-smart-2.3.jar
+2149422935  100 -r-x------   1 dcache_iocp dcache_iocp   100636 Feb  6 10:13 ./__spark_libs__/jsp-api-2.1.jar
+2149422936   36 -r-x------   1 dcache_iocp dcache_iocp    33031 Feb  6 10:13 ./__spark_libs__/jsr305-3.0.0.jar
+2149422937   16 -r-x------   1 dcache_iocp dcache_iocp    15071 Feb  6 10:13 ./__spark_libs__/jta-1.1.jar
+2149422939 1152 -r-x------   1 dcache_iocp dcache_iocp  1175798 Feb  6 10:13 ./__spark_libs__/JTransforms-3.1.jar
+2149422945    8 -r-x------   1 dcache_iocp dcache_iocp     4592 Feb  6 10:13 ./__spark_libs__/jul-to-slf4j-1.7.30.jar
+2149422946   80 -r-x------   1 dcache_iocp dcache_iocp    80980 Feb  6 10:13 ./__spark_libs__/kerb-admin-1.0.1.jar
+2149422947  112 -r-x------   1 dcache_iocp dcache_iocp   113017 Feb  6 10:13 ./__spark_libs__/kerb-client-1.0.1.jar
+2149422948   64 -r-x------   1 dcache_iocp dcache_iocp    65464 Feb  6 10:13 ./__spark_libs__/kerb-common-1.0.1.jar
+2149422949  224 -r-x------   1 dcache_iocp dcache_iocp   226672 Feb  6 10:13 ./__spark_libs__/kerb-core-1.0.1.jar
+2149422950  116 -r-x------   1 dcache_iocp dcache_iocp   116120 Feb  6 10:13 ./__spark_libs__/kerb-crypto-1.0.1.jar
+2149422952   20 -r-x------   1 dcache_iocp dcache_iocp    20046 Feb  6 10:13 ./__spark_libs__/kerb-identity-1.0.1.jar
+2149422953   84 -r-x------   1 dcache_iocp dcache_iocp    82756 Feb  6 10:13 ./__spark_libs__/kerb-server-1.0.1.jar
+2149422954   20 -r-x------   1 dcache_iocp dcache_iocp    20409 Feb  6 10:13 ./__spark_libs__/kerb-simplekdc-1.0.1.jar
+2149422955   36 -r-x------   1 dcache_iocp dcache_iocp    36708 Feb  6 10:13 ./__spark_libs__/kerb-util-1.0.1.jar
+2149422957  100 -r-x------   1 dcache_iocp dcache_iocp   102174 Feb  6 10:13 ./__spark_libs__/kerby-asn1-1.0.1.jar
+2149422958   32 -r-x------   1 dcache_iocp dcache_iocp    30674 Feb  6 10:13 ./__spark_libs__/kerby-config-1.0.1.jar
+2149422959  200 -r-x------   1 dcache_iocp dcache_iocp   204650 Feb  6 10:13 ./__spark_libs__/kerby-pkix-1.0.1.jar
+2149422960   40 -r-x------   1 dcache_iocp dcache_iocp    40554 Feb  6 10:13 ./__spark_libs__/kerby-util-1.0.1.jar
+2149422961   32 -r-x------   1 dcache_iocp dcache_iocp    29134 Feb  6 10:13 ./__spark_libs__/kerby-xdr-1.0.1.jar
+2149422962  404 -r-x------   1 dcache_iocp dcache_iocp   410874 Feb  6 10:13 ./__spark_libs__/kryo-shaded-4.0.2.jar
+2149422963 1024 -r-x------   1 dcache_iocp dcache_iocp  1045744 Feb  6 10:13 ./__spark_libs__/leveldbjni-all-1.8.jar
+2149422964  308 -r-x------   1 dcache_iocp dcache_iocp   313702 Feb  6 10:13 ./__spark_libs__/libfb303-0.9.3.jar
+2149422965  244 -r-x------   1 dcache_iocp dcache_iocp   246445 Feb  6 10:13 ./__spark_libs__/libthrift-0.12.0.jar
+2149422966    4 -r-x------   1 dcache_iocp dcache_iocp     2199 Feb  6 10:13 ./__spark_libs__/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+2149422967  480 -r-x------   1 dcache_iocp dcache_iocp   489884 Feb  6 10:13 ./__spark_libs__/log4j-1.2.17.jar
+2149422968  636 -r-x------   1 dcache_iocp dcache_iocp   649950 Feb  6 10:13 ./__spark_libs__/lz4-java-1.7.1.jar
+2149422972   36 -r-x------   1 dcache_iocp dcache_iocp    33786 Feb  6 10:13 ./__spark_libs__/machinist_2.12-0.6.8.jar
+2149422973    4 -r-x------   1 dcache_iocp dcache_iocp     3180 Feb  6 10:13 ./__spark_libs__/macro-compat_2.12-1.1.1.jar
+2149424739  104 -r-x------   1 dcache_iocp dcache_iocp   105365 Feb  6 10:13 ./__spark_libs__/metrics-core-4.1.1.jar
+2149424741   24 -r-x------   1 dcache_iocp dcache_iocp    22042 Feb  6 10:13 ./__spark_libs__/metrics-graphite-4.1.1.jar
+2149424742   24 -r-x------   1 dcache_iocp dcache_iocp    20889 Feb  6 10:13 ./__spark_libs__/metrics-jmx-4.1.1.jar
+2149424743   20 -r-x------   1 dcache_iocp dcache_iocp    16642 Feb  6 10:13 ./__spark_libs__/metrics-json-4.1.1.jar
+2149424745   24 -r-x------   1 dcache_iocp dcache_iocp    23909 Feb  6 10:13 ./__spark_libs__/metrics-jvm-4.1.1.jar
+2149424746    8 -r-x------   1 dcache_iocp dcache_iocp     5711 Feb  6 10:13 ./__spark_libs__/minlog-1.3.0.jar
+2149424747 4120 -r-x------   1 dcache_iocp dcache_iocp  4216895 Feb  6 10:13 ./__spark_libs__/netty-all-4.1.51.Final.jar
+2149424750  332 -r-x------   1 dcache_iocp dcache_iocp   338563 Feb  6 10:13 ./__spark_libs__/nimbus-jose-jwt-7.9.jar
+2149424753   56 -r-x------   1 dcache_iocp dcache_iocp    55684 Feb  6 10:13 ./__spark_libs__/objenesis-2.6.jar
+2149424754  324 -r-x------   1 dcache_iocp dcache_iocp   331034 Feb  6 10:13 ./__spark_libs__/okhttp-2.7.5.jar
+2149424756   84 -r-x------   1 dcache_iocp dcache_iocp    85756 Feb  6 10:13 ./__spark_libs__/okio-1.14.0.jar
+2149424757   20 -r-x------   1 dcache_iocp dcache_iocp    19827 Feb  6 10:13 ./__spark_libs__/opencsv-2.3.jar
+2149424758  796 -r-x------   1 dcache_iocp dcache_iocp   814000 Feb  6 10:13 ./__spark_libs__/orc-core-1.5.12.jar
+2149424759   48 -r-x------   1 dcache_iocp dcache_iocp    48202 Feb  6 10:13 ./__spark_libs__/orc-mapreduce-1.5.12.jar
+2149424760   28 -r-x------   1 dcache_iocp dcache_iocp    27755 Feb  6 10:13 ./__spark_libs__/orc-shims-1.5.12.jar
+2149424761   64 -r-x------   1 dcache_iocp dcache_iocp    65261 Feb  6 10:13 ./__spark_libs__/oro-2.0.8.jar
+2149424762   20 -r-x------   1 dcache_iocp dcache_iocp    19479 Feb  6 10:13 ./__spark_libs__/osgi-resource-locator-1.0.3.jar
+2149424763   36 -r-x------   1 dcache_iocp dcache_iocp    34654 Feb  6 10:13 ./__spark_libs__/paranamer-2.8.jar
+2149424764 1948 -r-x------   1 dcache_iocp dcache_iocp  1992108 Feb  6 10:13 ./__spark_libs__/parquet-column-1.12.2.jar
+2149424765   96 -r-x------   1 dcache_iocp dcache_iocp    96569 Feb  6 10:13 ./__spark_libs__/parquet-common-1.12.2.jar
+2149424766  832 -r-x------   1 dcache_iocp dcache_iocp   848557 Feb  6 10:13 ./__spark_libs__/parquet-encoding-1.12.2.jar
+2149424767  692 -r-x------   1 dcache_iocp dcache_iocp   707948 Feb  6 10:13 ./__spark_libs__/parquet-format-structures-1.12.2.jar
+2149424768  956 -r-x------   1 dcache_iocp dcache_iocp   977557 Feb  6 10:13 ./__spark_libs__/parquet-hadoop-1.12.2.jar
+2149424769 1836 -r-x------   1 dcache_iocp dcache_iocp  1879996 Feb  6 10:13 ./__spark_libs__/parquet-jackson-1.12.2.jar
+2149424770  524 -r-x------   1 dcache_iocp dcache_iocp   533455 Feb  6 10:13 ./__spark_libs__/protobuf-java-2.5.0.jar
+2149424772  124 -r-x------   1 dcache_iocp dcache_iocp   123052 Feb  6 10:13 ./__spark_libs__/py4j-0.10.9.jar
+2149424773  100 -r-x------   1 dcache_iocp dcache_iocp   100431 Feb  6 10:13 ./__spark_libs__/pyrolite-4.30.jar
+2149424775  128 -r-x------   1 dcache_iocp dcache_iocp   128414 Feb  6 10:13 ./__spark_libs__/re2j-1.1.jar
+2149424776  380 -r-x------   1 dcache_iocp dcache_iocp   386529 Feb  6 10:13 ./__spark_libs__/RoaringBitmap-0.9.0.jar
+2149424777  112 -r-x------   1 dcache_iocp dcache_iocp   112235 Feb  6 10:14 ./__spark_libs__/scala-collection-compat_2.12-2.1.1.jar
+2149424778 10724 -r-x------   1 dcache_iocp dcache_iocp 10978529 Feb  6 10:14 ./__spark_libs__/scala-compiler-2.12.15.jar
+2149424779 5316 -r-x------   1 dcache_iocp dcache_iocp  5443542 Feb  6 10:14 ./__spark_libs__/scala-library-2.12.15.jar
+2149424780  220 -r-x------   1 dcache_iocp dcache_iocp   222980 Feb  6 10:14 ./__spark_libs__/scala-parser-combinators_2.12-1.1.2.jar
+2149424782 3592 -r-x------   1 dcache_iocp dcache_iocp  3678167 Feb  6 10:14 ./__spark_libs__/scala-reflect-2.12.15.jar
+2149424784  544 -r-x------   1 dcache_iocp dcache_iocp   556575 Feb  6 10:14 ./__spark_libs__/scala-xml_2.12-1.2.0.jar
+2149424785 3168 -r-x------   1 dcache_iocp dcache_iocp  3243337 Feb  6 10:14 ./__spark_libs__/shapeless_2.12-2.3.3.jar
+2149424786    4 -r-x------   1 dcache_iocp dcache_iocp     2500 Feb  6 10:14 ./__spark_libs__/shims-0.9.0.jar
+2149424787   44 -r-x------   1 dcache_iocp dcache_iocp    41472 Feb  6 10:14 ./__spark_libs__/slf4j-api-1.7.30.jar
+2149424788   12 -r-x------   1 dcache_iocp dcache_iocp    12211 Feb  6 10:14 ./__spark_libs__/slf4j-log4j12-1.7.30.jar
+2149424789 1924 -r-x------   1 dcache_iocp dcache_iocp  1969177 Feb  6 10:14 ./__spark_libs__/snappy-java-1.1.8.2.jar
+2149424790 9812 -r-x------   1 dcache_iocp dcache_iocp 10044352 Feb  6 10:14 ./__spark_libs__/spark-catalyst_2.12-3.1.1.jar
+2149424791 10252 -r-x------   1 dcache_iocp dcache_iocp 10494187 Feb  6 10:14 ./__spark_libs__/spark-core_2.12-3.1.1.jar
+2149424795  424 -r-x------   1 dcache_iocp dcache_iocp   430621 Feb  6 10:14 ./__spark_libs__/spark-graphx_2.12-3.1.1.jar
+2149424796  680 -r-x------   1 dcache_iocp dcache_iocp   692999 Feb  6 10:14 ./__spark_libs__/spark-hive_2.12-3.1.1.jar
+2149424797  532 -r-x------   1 dcache_iocp dcache_iocp   542148 Feb  6 10:14 ./__spark_libs__/spark-hive-thriftserver_2.12-3.1.1.jar
+2149424798   64 -r-x------   1 dcache_iocp dcache_iocp    61787 Feb  6 10:14 ./__spark_libs__/spark-kvstore_2.12-3.1.1.jar
+2149430566   76 -r-x------   1 dcache_iocp dcache_iocp    76347 Feb  6 10:14 ./__spark_libs__/spark-launcher_2.12-3.1.1.jar
+2149430578 6004 -r-x------   1 dcache_iocp dcache_iocp  6147680 Feb  6 10:14 ./__spark_libs__/spark-mllib_2.12-3.1.1.jar
+2149430581  116 -r-x------   1 dcache_iocp dcache_iocp   114716 Feb  6 10:14 ./__spark_libs__/spark-mllib-local_2.12-3.1.1.jar
+2149430582 2904 -r-x------   1 dcache_iocp dcache_iocp  2972003 Feb  6 10:14 ./__spark_libs__/spark-network-common_2.12-3.1.1.jar
+2149430583  128 -r-x------   1 dcache_iocp dcache_iocp   127751 Feb  6 10:14 ./__spark_libs__/spark-network-shuffle_2.12-3.1.1.jar
+2149430584   52 -r-x------   1 dcache_iocp dcache_iocp    52639 Feb  6 10:14 ./__spark_libs__/spark-repl_2.12-3.1.1.jar
+2149430587   32 -r-x------   1 dcache_iocp dcache_iocp    30498 Feb  6 10:14 ./__spark_libs__/spark-sketch_2.12-3.1.1.jar
+2149430594 7400 -r-x------   1 dcache_iocp dcache_iocp  7574270 Feb  6 10:14 ./__spark_libs__/spark-sql_2.12-3.1.1.jar
+2149430596 1116 -r-x------   1 dcache_iocp dcache_iocp  1139648 Feb  6 10:14 ./__spark_libs__/spark-streaming_2.12-3.1.1.jar
+2149430599   16 -r-x------   1 dcache_iocp dcache_iocp    15157 Feb  6 10:14 ./__spark_libs__/spark-tags_2.12-3.1.1.jar
+2149430600   52 -r-x------   1 dcache_iocp dcache_iocp    51454 Feb  6 10:14 ./__spark_libs__/spark-unsafe_2.12-3.1.1.jar
+2149430603  344 -r-x------   1 dcache_iocp dcache_iocp   349733 Feb  6 10:14 ./__spark_libs__/spark-yarn_2.12-3.1.1.jar
+2149430604 7020 -r-x------   1 dcache_iocp dcache_iocp  7188024 Feb  6 10:14 ./__spark_libs__/spire_2.12-0.17.0-M1.jar
+2149430605   80 -r-x------   1 dcache_iocp dcache_iocp    79588 Feb  6 10:14 ./__spark_libs__/spire-macros_2.12-0.17.0-M1.jar
+2149430607   12 -r-x------   1 dcache_iocp dcache_iocp     8261 Feb  6 10:14 ./__spark_libs__/spire-platform_2.12-0.17.0-M1.jar
+2149430608   36 -r-x------   1 dcache_iocp dcache_iocp    34601 Feb  6 10:14 ./__spark_libs__/spire-util_2.12-0.17.0-M1.jar
+2149430609  232 -r-x------   1 dcache_iocp dcache_iocp   236660 Feb  6 10:14 ./__spark_libs__/ST4-4.0.4.jar
+2149430610  160 -r-x------   1 dcache_iocp dcache_iocp   161867 Feb  6 10:14 ./__spark_libs__/stax2-api-3.1.4.jar
+2149430620   28 -r-x------   1 dcache_iocp dcache_iocp    26514 Feb  6 10:14 ./__spark_libs__/stax-api-1.0.1.jar
+2149432004  176 -r-x------   1 dcache_iocp dcache_iocp   178149 Feb  6 10:14 ./__spark_libs__/stream-2.9.6.jar
+2149432006   92 -r-x------   1 dcache_iocp dcache_iocp    93210 Feb  6 10:14 ./__spark_libs__/super-csv-2.2.0.jar
+2149432009  232 -r-x------   1 dcache_iocp dcache_iocp   233745 Feb  6 10:14 ./__spark_libs__/threeten-extra-1.5.0.jar
+2149432010   20 -r-x------   1 dcache_iocp dcache_iocp    18763 Feb  6 10:14 ./__spark_libs__/token-provider-1.0.1.jar
+2149432011   16 -r-x------   1 dcache_iocp dcache_iocp    15071 Feb  6 10:14 ./__spark_libs__/transaction-api-1.1.jar
+2149432012  440 -r-x------   1 dcache_iocp dcache_iocp   447005 Feb  6 10:14 ./__spark_libs__/univocity-parsers-2.9.1.jar
+2149432013  384 -r-x------   1 dcache_iocp dcache_iocp   392124 Feb  6 10:14 ./__spark_libs__/velocity-1.5.jar
+2149432014  504 -r-x------   1 dcache_iocp dcache_iocp   512742 Feb  6 10:14 ./__spark_libs__/woodstox-core-5.0.3.jar
+2149432015  276 -r-x------   1 dcache_iocp dcache_iocp   281356 Feb  6 10:14 ./__spark_libs__/xbean-asm7-shaded-4.15.jar
+2149432016  100 -r-x------   1 dcache_iocp dcache_iocp    99555 Feb  6 10:14 ./__spark_libs__/xz-1.5.jar
+2149432017  888 -r-x------   1 dcache_iocp dcache_iocp   906708 Feb  6 10:14 ./__spark_libs__/zookeeper-3.4.13.jar
+2149432018 5272 -r-x------   1 dcache_iocp dcache_iocp  5396193 Feb  6 10:14 ./__spark_libs__/zstd-jni-1.5.2-2.jar
+2149432019  768 -r-x------   1 dcache_iocp dcache_iocp   784407 Feb  6 10:14 ./__spark_libs__/spark-metrics-assembly-3.1.jar
+  3148    0 drwx------   3 dcache_iocp dcache_iocp      184 Feb  6 10:14 ./__spark_conf__
+  4231    4 -r-x------   1 dcache_iocp dcache_iocp     2149 Feb  6 10:14 ./__spark_conf__/log4j.properties
+  4236    4 -r-x------   1 dcache_iocp dcache_iocp     1034 Feb  6 10:14 ./__spark_conf__/metrics.properties
+1073742027    0 drwx------   2 dcache_iocp dcache_iocp      161 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__
+1073743590    8 -r-x------   1 dcache_iocp dcache_iocp     4397 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/mapred-site.xml
+1073743600    8 -r-x------   1 dcache_iocp dcache_iocp     6637 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/core-site.xml
+1073743604   16 -r-x------   1 dcache_iocp dcache_iocp    15788 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/yarn-site.xml
+1073743612   52 -r-x------   1 dcache_iocp dcache_iocp    49448 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/hdfs-site.xml
+1073744983    4 -r-x------   1 dcache_iocp dcache_iocp      130 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/resource-types.xml
+1073744985   16 -r-x------   1 dcache_iocp dcache_iocp    14352 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/hive-site.xml
+1073744986    4 -r-x------   1 dcache_iocp dcache_iocp      934 Feb  6 10:14 ./__spark_conf__/__hadoop_conf__/hbase-site.xml
+  4239  260 -r-x------   1 dcache_iocp dcache_iocp   265178 Feb  6 10:14 ./__spark_conf__/__spark_hadoop_conf__.xml
+  4611    4 -r-x------   1 dcache_iocp dcache_iocp     2521 Feb  6 10:14 ./__spark_conf__/__spark_conf__.properties
+  4615    4 -r-x------   1 dcache_iocp dcache_iocp     1562 Feb  6 10:14 ./__spark_conf__/__spark_dist_cache__.properties
+   557  984 -r-x------   1 dcache_iocp dcache_iocp  1004838 Feb  6 10:14 ./mysql-connector-java-5.1.46.jar
+84539450 29964 -r-x------   1 dcache_iocp dcache_iocp 30680306 Feb  6 10:14 ./spark-streaming-kafka-0-10-assembly_2.12-3.1.1-qiyi-4-20220512.154236-1.jar
+2149432021   16 -r-x------   1 dcache_iocp dcache_iocp    13381 Feb  6 10:14 ./dcache_acc_new-3.py
+   206   44 -r-x------   1 dcache_iocp dcache_iocp    41587 Feb  6 10:14 ./py4j-0.10.9-src.zip
+1073742102    4 -r-x------   1 dcache_iocp dcache_iocp     1370 Feb  6 10:14 ./provice.json
+ 19014 1040 -r-x------   1 dcache_iocp dcache_iocp  1063346 Feb  6 10:14 ./qbfs-filesystem.jar
+3221228545    4 -r-x------   1 dcache_iocp dcache_iocp      140 Feb  6 10:14 ./dcache_iocp.keytab-58659abe-8369-4400-a274-b91e146459ab
+broken symlinks(find -L . -maxdepth 5 -type l -ls):
+
+End of LogType:directory.info
+*******************************************************************************
+
+Container: container_e32_1672821343673_4449922_01_000001 on node71-64-22-bdxs.qiyi.hadoop_8041
+LogAggregationType: AGGREGATED
+==============================================================================================
+LogType:launch_container.sh
+LogLastModifiedTime:Mon Feb 06 10:14:14 +0800 2023
+LogLength:7393
+LogContents:
+#!/bin/bash
+
+set -o pipefail -e
+export PRELAUNCH_OUT="/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/prelaunch.out"
+exec >"${PRELAUNCH_OUT}"
+export PRELAUNCH_ERR="/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/prelaunch.err"
+exec 2>"${PRELAUNCH_ERR}"
+echo "Setting up env variables"
+export JAVA_HOME=${JAVA_HOME:-"/usr/java/default"}
+export HADOOP_COMMON_HOME=${HADOOP_COMMON_HOME:-"/usr/lib/hadoop"}
+export HADOOP_MAPRED_HOME=${HADOOP_MAPRED_HOME:-"/usr/lib/hadoop-mapreduce"}
+export HADOOP_HDFS_HOME=${HADOOP_HDFS_HOME:-"/usr/lib/hadoop-hdfs"}
+export HADOOP_CONF_DIR=${HADOOP_CONF_DIR:-"/etc/hadoop/conf"}
+export HADOOP_YARN_HOME=${HADOOP_YARN_HOME:-"/usr/lib/hadoop-yarn"}
+export HADOOP_HOME=${HADOOP_HOME:-"/usr/lib/hadoop"}
+export PATH=${PATH:-"/sbin:/usr/sbin:/bin:/usr/bin"}
+export HADOOP_TOKEN_FILE_LOCATION="/data4/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/container_tokens"
+export CONTAINER_ID="container_e32_1672821343673_4449922_01_000001"
+export NM_PORT="8041"
+export NM_HOST="node71-64-22-bdxs.qiyi.hadoop"
+export NM_HTTP_PORT="8042"
+export LOCAL_DIRS="/data1/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922,/data2/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922,/data3/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922,/data4/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922"
+export LOCAL_USER_DIRS="/data1/yarn/local/usercache/dcache_iocp/,/data2/yarn/local/usercache/dcache_iocp/,/data3/yarn/local/usercache/dcache_iocp/,/data4/yarn/local/usercache/dcache_iocp/"
+export LOG_DIRS="/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001,/data3/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001,/data4/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001"
+export USER="dcache_iocp"
+export LOGNAME="dcache_iocp"
+export HOME="/home/"
+export PWD="/data4/yarn/local/usercache/dcache_iocp/appcache/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001"
+export LOCALIZATION_COUNTERS="252398442,0,10,0,3205"
+export JVM_PID="$$"
+export MALLOC_ARENA_MAX="4"
+export NM_AUX_SERVICE_spark_shuffle=""
+export NM_AUX_SERVICE_mapreduce_shuffle="AAA0+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+export SPARK_YARN_STAGING_DIR="hdfs://rbf-bdxs-g1/user/dcache_iocp/.sparkStaging/application_1672821343673_4449922"
+export JAVA_LIBRARY_PATH="$JAVA_LIBRARY_PATH:/usr/lib/hadoop/lib/native/"
+export APP_SUBMIT_TIME_ENV="1675649646015"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/lib/hadoop/lib/native"
+export PYTHONHASHSEED="0"
+export PYTHONPATH="$PWD/pyspark.zip:$PWD/py4j-0.10.9-src.zip"
+export APPLICATION_WEB_PROXY_BASE="/proxy/application_1672821343673_4449922"
+export SPARK_DIST_CLASSPATH="/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*:/usr/lib/hadoop-yarn/./:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*"
+export CLASSPATH="./*.jar:$PWD:$PWD/__spark_conf__:$PWD/__spark_libs__/*:$HADOOP_CONF_DIR:$HADOOP_COMMON_HOME/*:$HADOOP_COMMON_HOME/lib/*:$HADOOP_HDFS_HOME/*:$HADOOP_HDFS_HOME/lib/*:$HADOOP_MAPRED_HOME/*:$HADOOP_MAPRED_HOME/lib/*:$HADOOP_YARN_HOME/*:$HADOOP_YARN_HOME/lib/*:/usr/lib/hbase/*:/usr/lib/hbase/lib/*:/etc/hbase/conf:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/*:$HADOOP_MAPRED_HOME/share/hadoop/mapreduce/lib/*:/etc/hadoop/conf:/usr/lib/hadoop/lib/*:/usr/lib/hadoop/.//*:/usr/lib/hadoop-hdfs/./:/usr/lib/hadoop-hdfs/lib/*:/usr/lib/hadoop-hdfs/.//*:/usr/lib/hadoop-mapreduce/lib/*:/usr/lib/hadoop-mapreduce/.//*:/usr/lib/hadoop-yarn/./:/usr/lib/hadoop-yarn/lib/*:/usr/lib/hadoop-yarn/.//*:$PWD/__spark_conf__/__hadoop_conf__"
+export SPARK_USER="dcache_iocp"
+echo "Setting up job resources"
+ln -sf -- "/data1/yarn/local/usercache/dcache_iocp/filecache/18/pyspark.zip" "pyspark.zip"
+ln -sf -- "/data3/yarn/local/usercache/dcache_iocp/filecache/21/__spark_libs__7594137910784381154.zip" "__spark_libs__"
+ln -sf -- "/data3/yarn/local/usercache/dcache_iocp/filecache/22/__spark_conf__.zip" "__spark_conf__"
+ln -sf -- "/data4/yarn/local/usercache/dcache_iocp/filecache/20/mysql-connector-java-5.1.46.jar" "mysql-connector-java-5.1.46.jar"
+ln -sf -- "/data3/yarn/local/usercache/dcache_iocp/filecache/19/spark-streaming-kafka-0-10-assembly_2.12-3.1.1-qiyi-4-20220512.154236-1.jar" "spark-streaming-kafka-0-10-assembly_2.12-3.1.1-qiyi-4-20220512.154236-1.jar"
+ln -sf -- "/data3/yarn/local/usercache/dcache_iocp/filecache/24/dcache_acc_new-3.py" "dcache_acc_new-3.py"
+ln -sf -- "/data1/yarn/local/usercache/dcache_iocp/filecache/26/py4j-0.10.9-src.zip" "py4j-0.10.9-src.zip"
+ln -sf -- "/data2/yarn/local/usercache/dcache_iocp/filecache/27/provice.json" "provice.json"
+ln -sf -- "/data2/yarn/local/usercache/dcache_iocp/filecache/25/qbfs-filesystem.jar" "qbfs-filesystem.jar"
+ln -sf -- "/data2/yarn/local/usercache/dcache_iocp/filecache/23/dcache_iocp.keytab" "dcache_iocp.keytab-58659abe-8369-4400-a274-b91e146459ab"
+echo "Copying debugging information"
+# Creating copy of launch script
+cp "launch_container.sh" "/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/launch_container.sh"
+chmod 640 "/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/launch_container.sh"
+# Determining directory contents
+echo "ls -l:" 1>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+ls -l 1>>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+echo "find -L . -maxdepth 5 -ls:" 1>>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+find -L . -maxdepth 5 -ls 1>>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+echo "broken symlinks(find -L . -maxdepth 5 -type l -ls):" 1>>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+find -L . -maxdepth 5 -type l -ls 1>>"/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/directory.info"
+echo "Launching container"
+exec /bin/bash -c "$JAVA_HOME/bin/java -server -Xmx8192m -Djava.io.tmpdir=$PWD/tmp '-Djava.net.preferIPv4Stack=true' '-Dfile.encoding=UTF-8' '-XX:+UseParallelGC' '-XX:ParallelGCThreads=4' -Dspark.yarn.app.container.log.dir=/data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001 org.apache.spark.deploy.yarn.ApplicationMaster --class 'org.apache.spark.deploy.PythonRunner' --primary-py-file dcache_acc_new-3.py --properties-file $PWD/__spark_conf__/__spark_conf__.properties --dist-cache-conf $PWD/__spark_conf__/__spark_dist_cache__.properties 1> /data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/stdout 2> /data2/yarn/logs/application_1672821343673_4449922/container_e32_1672821343673_4449922_01_000001/stderr"
+
+End of LogType:launch_container.sh
+************************************************************************************
+
+
+End of LogType:prelaunch.err
+******************************************************************************
+
+Container: container_e32_1672821343673_4449922_01_000001 on node71-64-22-bdxs.qiyi.hadoop_8041
+LogAggregationType: AGGREGATED
+==============================================================================================
+LogType:prelaunch.out
+LogLastModifiedTime:Mon Feb 06 10:14:14 +0800 2023
+LogLength:100
+LogContents:
+Setting up env variables
+Setting up job resources
+Copying debugging information
+Launching container
+
+End of LogType:prelaunch.out
+******************************************************************************
+
+Container: container_e32_1672821343673_4449922_01_000001 on node71-64-22-bdxs.qiyi.hadoop_8041
+LogAggregationType: AGGREGATED
+==============================================================================================
+LogType:stderr
+LogLastModifiedTime:Mon Feb 06 10:14:14 +0800 2023
+LogLength:4011
+LogContents:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/data3/yarn/local/usercache/dcache_iocp/filecache/21/__spark_libs__7594137910784381154.zip/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/lib/hadoop/lib/slf4j-log4j12-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+23/02/06 10:14:10 INFO SignalUtils: Registering signal handler for TERM
+23/02/06 10:14:10 INFO SignalUtils: Registering signal handler for HUP
+23/02/06 10:14:10 INFO SignalUtils: Registering signal handler for INT
+23/02/06 10:14:10 INFO SecurityManager: Changing view acls to: dcache_iocp
+23/02/06 10:14:10 INFO SecurityManager: Changing modify acls to: dcache_iocp
+23/02/06 10:14:10 INFO SecurityManager: Changing view acls groups to: 
+23/02/06 10:14:10 INFO SecurityManager: Changing modify acls groups to: 
+23/02/06 10:14:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dcache_iocp); groups with view permissions: Set(); users  with modify permissions: Set(dcache_iocp); groups with modify permissions: Set()
+23/02/06 10:14:10 INFO deprecation: mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+23/02/06 10:14:10 INFO SparkHadoopUtil: Attempting to login to Kerberos using principal: dcache_iocp@HADOOP.QIYI.COM and keytab: dcache_iocp.keytab-58659abe-8369-4400-a274-b91e146459ab
+23/02/06 10:14:11 INFO UserGroupInformation: Login successful for user dcache_iocp@HADOOP.QIYI.COM using keytab file dcache_iocp.keytab-58659abe-8369-4400-a274-b91e146459ab
+23/02/06 10:14:11 INFO ApplicationMaster: ApplicationAttemptId: appattempt_1672821343673_4449922_000001
+23/02/06 10:14:11 INFO ApplicationMaster: Starting the user application in a separate Thread
+23/02/06 10:14:11 INFO ApplicationMaster: Waiting for spark context initialization...
+23/02/06 10:14:11 ERROR ApplicationMaster: User application exited with status 1
+23/02/06 10:14:11 INFO ApplicationMaster: Final app status: FAILED, exitCode: 13, (reason: User application exited with status 1)
+23/02/06 10:14:11 ERROR ApplicationMaster: Uncaught exception: 
+org.apache.spark.SparkException: Exception thrown in awaitResult: 
+	at org.apache.spark.util.ThreadUtils$.awaitResult(ThreadUtils.scala:301)
+	at org.apache.spark.deploy.yarn.ApplicationMaster.runDriver(ApplicationMaster.scala:504)
+	at org.apache.spark.deploy.yarn.ApplicationMaster.run(ApplicationMaster.scala:268)
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:899)
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$3.run(ApplicationMaster.scala:898)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1762)
+	at org.apache.spark.deploy.yarn.ApplicationMaster$.main(ApplicationMaster.scala:898)
+	at org.apache.spark.deploy.yarn.ApplicationMaster.main(ApplicationMaster.scala)
+Caused by: org.apache.spark.SparkUserAppException: User application exited with 1
+	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:103)
+	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.spark.deploy.yarn.ApplicationMaster$$anon$2.run(ApplicationMaster.scala:732)
+23/02/06 10:14:11 INFO ApplicationMaster: Deleting staging directory hdfs://rbf-bdxs-g1/user/dcache_iocp/.sparkStaging/application_1672821343673_4449922
+23/02/06 10:14:12 INFO ShutdownHookManager: Shutdown hook called
+
+End of LogType:stderr
+***********************************************************************
+
+Container: container_e32_1672821343673_4449922_01_000001 on node71-64-22-bdxs.qiyi.hadoop_8041
+LogAggregationType: AGGREGATED
+==============================================================================================
+LogType:stdout
+LogLastModifiedTime:Mon Feb 06 10:14:14 +0800 2023
+LogLength:95
+LogContents:
+  File "dcache_acc_new-3.py", line 344
+    .foreach(process)
+    ^
+SyntaxError: invalid syntax
+
+End of LogType:stdout
+***********************************************************************
+
+
+End of LogType:container-localizer-syslog
+*******************************************************************************************
+
